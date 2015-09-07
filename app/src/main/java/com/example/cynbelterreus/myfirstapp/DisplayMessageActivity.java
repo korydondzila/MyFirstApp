@@ -15,6 +15,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_display_message);
+
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Get the message from the intent
         Intent intent = getIntent();
