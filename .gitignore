@@ -50,3 +50,6 @@ Thumbs.db
 # gradle directory
 .gradle
 build/
+
+# images
+*.png
